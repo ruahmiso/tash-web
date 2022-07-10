@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest"  href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Misorang's Audio Dictionary</title>
+  </head>
+
+  <div id="nata"></div>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div style="margin-top:2000px"></div>
+
+    <h1> HTML5 Cheat Sheet </h1>
+
+    <hr>
+
+    <div> div - new block of text </div>
+    <br>
+    <div> hr - horizontal line </div>
+    <br>
+    <div> br - blank line </div>
+
+    <hr>
+
+    <!-- heading -->
+
+    <h1> h1 - headline 1</h1>
+    <h2> h2 - headline 2</h2>
+    <h3> h3 - headline 3</h3>
+    <h4> h4 - headline 4</h4>
+    <h5> h5 - headline 5</h5>
+    <h6> h6 - headline 6</h6>
+
+    <hr>
+
+    <!-- bold/italics/typwriter-->
+
+    <div><b> b - boldify </b></div>
+    <br>
+    <div><i> i - italics</i></div>
+    <br>
+    <div><tt> tt - typewriter style </tt></div>
+    <hr>
+    <div> div is for ordinary text</div>
+
+    <hr>
+
+    <!-- Paragraph -->
+    <p> 어쩌구 저쩌구 <strong>모든 all </strong> 언어가 되는군요
+      💕 이모티콘도 되는군요. 유니코드라 그렁가요.
+      아 또 <a href="https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%96%B4"> 한국어<a>는 볼드처리 안되네요?
+      아까 위에 언어를 EN으로 해서 그런 건가요?
+      그런데 링크를 이따구로 하면 유저가 이탈하죠..
+      새 탭에 열리게 해봅시다. <a href="https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%96%B4" target="_blank"> 한국어 <a></a></p>
+
+    <hr>
+
+    <!-- Lists ul, unordered, ol, ordered/numbered -->
+
+    <ul>
+      <li> List Item 1</li>
+      <li> List Item 2</li>
+      <li> List Item 3</li>
+      <li> List Item 4</li>
+    </ul>
+
+    <ol>
+      <li> List Item 1</li>
+      <li> List Item 2</li>
+      <li> List Item 3</li>
+      <li> List Item 4</li>
+    </ol>
+
+    <hr>
+    <br>
+
+    <!-- tables -->
+
+    <table>
+      <thead>
+        <tr>
+            <th> Name </th>
+            <th> Email </th>
+            <th> Phone </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> Misorang Seo </td>
+          <td> ruahmiso@gmail.com </td>
+          <td> +82 10 9944 4703 </td>
+        </tr>
+        <tr>
+          <td> Moses Seo </td>
+          <td> luvjx17@gmail.com </td>
+          <td> +82 can't remember </td>
+        </tr>
+        <tr>
+          <td> Boram Lee </td>
+          <td> ruahboram@gmail.com </td>
+          <td> +82 10 1234 5678 </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <br>
+    <hr>
+    <br>
+    <!--forms -->
+    <form action ="process.php" method="post">
+      <div>
+        <label>First Name</label>
+        <input type="text" name="FirstName" placeholder="Enter First Name">
+      </div>
+      <div>
+        <label>Last Name</label>
+        <input type="text" name="LastName" placeholder="Enter Last Name">
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="email" name="Email">
+      </div>
+      <div>
+        <label>Message</label>
+        <textarea name="message"> </textarea>
+      </div>
+      <div>
+        <label>Pronouns</label>
+        <select name="pronouns">
+          <option value="he/him"> he/him </option>
+          <option value="she/her"> she/her </option>
+        </select>
+      </div>
+      <div>
+        <label>Age</label>
+        <input type="number" name="age" value="30">
+      </div>
+      <div>
+        <label>Birthday</label>
+        <input type="date" name="birthday" value="30">
+      </div>
+      <input type="submit" name="submit">
+    </form>
+    <button> Click Me🙋🏻‍♀️ </button>
+
+    <hr>
+
+      <!-- image -- alt allows for text description if image fails to load-->
+      <a href="HTML%20cheatsheet.png">
+        <img src="HTML%20cheatsheet.png" alt="Misorang Book v Book" width="50">
+      </a>
+
+    <div style="margin-top:200px"></div>
+
+
+
+
+    <!--
+
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
